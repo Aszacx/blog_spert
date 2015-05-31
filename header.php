@@ -28,13 +28,8 @@
 	<div id="sidebar" class="sidebar">
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-branding">
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="./images/logo.png" title="SPERT S.A. de C.V."></a></h1>
 				<?php
-					if ( is_front_page() && is_home() ) : ?>
-						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><!--<?php bloginfo( //'name' ); ?>--><img src="./images/logo.png" title="SPERT S.A. de C.V."></a></h1>
-					<?php else : ?>
-						<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><!--<?php bloginfo( //'name' ); ?>--><img src="./images/logo.png" title="SPERT S.A. de C.V."></a></p>
-					<?php endif;
-
 					$description = get_bloginfo( 'description', 'display' );
 					if ( $description || is_customize_preview() ) : ?>
 						<p class="site-description"><?php echo $description; ?></p>
