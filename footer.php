@@ -22,7 +22,7 @@
 				 */
 				do_action( 'twentyfifteen_credits' );
 			?>
-			<a href="<?php echo esc_url( __( 'http://spert.com.mx', 'twentyfifteen' ) ); ?>"><?php printf( __( '© Todos los Derechos Reservados  %s', 'twentyfifteen' ), 'Servicios Profesionales en Recursos Humanos y Tecnologías S.A. de C.V.' ); ?></a>
+			<a href="<?php echo esc_url( __( 'http://spert.com.mx', 'twentyfifteen' ) ); ?>"><?php printf( __( '© Todos los Derechos Reservados  %s', 'twentyfifteen' ), 'SPERT S.A. de C.V.' ); ?></a>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 
